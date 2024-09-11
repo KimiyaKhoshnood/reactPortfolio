@@ -8,11 +8,11 @@ const StatusNumbersBox = () => {
     ]
     return(
         <>
-        <div className="flex justify-between px-20 pb-20">
+        <div className="xl:px-20 px-5 py-20 lg:columns-4 columns-2 gap-1">
             {
-                StatusNumbersProps.map((elem) =>{
+                StatusNumbersProps.map((elem, index) =>{
                     return(
-                        <StatusNumbers num={elem.num} lineFirst={elem.lineFirst} lineSecond={elem.lineSecond}/>
+                        <StatusNumbers num={elem.num} lineFirst={elem.lineFirst} lineSecond={elem.lineSecond} key={index}/>
                     )
                 })
             }
