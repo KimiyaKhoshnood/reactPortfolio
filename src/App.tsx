@@ -3,6 +3,9 @@ import StatusNumbersBox from "./Components/StatusNumbersBox/StatusNumbersBox";
 import QualityServices from "./Components/QualityServices/QualityServices";
 import RecentWorks from "./Components/RecentWorks/RecentWorks";
 import ExperienceAndEducation from "./Components/ExperienceAndEducation/ExperienceAndEducation";
+import Skills from "./Components/Skills/Skills";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 function App() {
 
   return (
@@ -14,6 +17,9 @@ function App() {
         <QualityServices/>
         <RecentWorks/>
         <ExperienceAndEducation/>
+        <Skills/>
+        <Contact/>
+        <Footer/>
       </div>
     </>
   );
