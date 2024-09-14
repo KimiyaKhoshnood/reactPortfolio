@@ -1,3 +1,6 @@
+import {arrowUp} from 'react-icons-kit/feather/arrowUp'
+import Icon from 'react-icons-kit'
+
 const Footer = () => {
     return(
         <>
@@ -11,7 +14,7 @@ const Footer = () => {
             </div>
             <span className="text-[#8650F6]">Made in 2024 by <span className="font-bold">Kimia Khoshnood</span></span>
         </footer>
-        <a href="" target="_top" className="fixed bottom-5 right-5 flex justify-center items-center w-[40px] h-[40px] rounded-full border-2 border-[#8650F6] shadow-lg bg-transparent">^</a>
+        <a href="" target="_top" className="fixed bottom-5 right-5 flex justify-center items-center w-[40px] h-[40px] rounded-full border-2 border-[#8650F6] shadow-lg bg-transparent text-[#8650F6] p-2"><Icon className='pb-[2px]' icon={arrowUp} size={"100%"}/></a>
         </>
     )
 }

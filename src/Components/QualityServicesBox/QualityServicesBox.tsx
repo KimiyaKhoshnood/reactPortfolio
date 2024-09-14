@@ -1,4 +1,7 @@
-type QualityServicesBoxProps = {
+import Icon from 'react-icons-kit'
+import {iosArrowThinRight} from 'react-icons-kit/ionicons/iosArrowThinRight'
+
+export type QualityServicesBoxProps = {
     num: string,
     h3: string,
     p: string,
@@ -12,7 +15,7 @@ const QualityServicesBox = ({num, h3, p}:QualityServicesBoxProps) => {
                 <h3 className="lg:w-[250px] sm:w-[200px] font-bold lg:text-3xl text-2xl text-nowrap">{h3}</h3>
             </div>
             <p className="md:w-[570px] w-full text-[17px] px-8 py-1 md:order-none order-last">{p}</p>
-            <img className="md:w-[40px] md:h-[40px] w-[30px] h-[30px] rotate-45" src="https://www.svgrepo.com/show/305136/arrow-forward.svg" alt="" />
+            <Icon className='md:w-[40px] md:h-[40px] w-[30px] h-[30px] text-[#8750F7]  rotate-45 group-hover:-rotate-45 group-hover:text-white' icon={iosArrowThinRight} size={"100%"} />
         </div>
         </>
     )

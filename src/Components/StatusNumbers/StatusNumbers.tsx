@@ -1,4 +1,4 @@
-type StatusNumbersProps = {
+export type StatusNumbersProps = {
     num : string,
     lineFirst: string,
     lineSecond: string,

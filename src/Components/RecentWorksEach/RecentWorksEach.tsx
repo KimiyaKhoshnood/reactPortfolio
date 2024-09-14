@@ -1,4 +1,4 @@
-type RecentWorksEachProps = {
+export type RecentWorksEachProps = {
     img : string
 }
 

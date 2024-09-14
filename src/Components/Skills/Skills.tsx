@@ -1,7 +1,7 @@
-import SkillsEach from "../SkillsEach/SkillsEach"
+import SkillsEach, { SkillsEachProps } from "../SkillsEach/SkillsEach"
 
 const Skills = () => {
-    let SkillsEachProps = [
+    let SkillsEachProps: SkillsEachProps[] = [
         {img: "https://gerold.themejunction.net/wp-content/uploads/2024/05/figma.png", skillPercentage: "92%", skillName: "Figma"},
         {img: "https://gerold.themejunction.net/wp-content/uploads/2024/05/sketch.png", skillPercentage: "92%", skillName: "Sketch"},
         {img: "https://gerold.themejunction.net/wp-content/uploads/2024/05/figma.png", skillPercentage: "92%", skillName: "Figma"},

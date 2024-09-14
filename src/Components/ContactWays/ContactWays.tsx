@@ -1,4 +1,6 @@
-type ContactWaysProps = {
+import Icon from 'react-icons-kit'
+
+export type ContactWaysProps = {
     svg: string,
     title: string,
     content: string,
@@ -9,7 +11,7 @@ const ContactWays = ({svg, title, content}:ContactWaysProps) => {
         <>
         <div className="flex items-center gap-5">
             <div className="w-[50px] h-[50px] rounded-full bg-gradient-to-t from-[#8650F6] to-[#2A1455] p-2">
-                <img src={svg} alt="" />
+                <Icon className='text-white p-1' icon={svg} size={"100%"}/>
             </div>
             <div className="lg:w-[300px] w-[250px]">
                 <h5 className="text-lg">{title}</h5>

@@ -1,6 +1,6 @@
-import RecentWorksEach from "../RecentWorksEach/RecentWorksEach"
+import RecentWorksEach, { RecentWorksEachProps } from "../RecentWorksEach/RecentWorksEach"
 const RecentWorks = () => {
-    let RecentWorksEachProps = [
+    let RecentWorksEachProps: RecentWorksEachProps[] = [
         {img: "https://geroldlight.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg"},
         {img: "https://geroldlight.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg"},
         {img: "https://geroldlight.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg"},

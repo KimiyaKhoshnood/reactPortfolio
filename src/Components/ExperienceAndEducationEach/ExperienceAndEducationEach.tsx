@@ -1,4 +1,4 @@
-type ExperienceAndEducationEachProp = {
+export type ExperienceAndEducationEachProp = {
     date : string,
     title : string,
     span : string

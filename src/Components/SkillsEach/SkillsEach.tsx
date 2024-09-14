@@ -1,4 +1,4 @@
-type SkillsEachProps = {
+export type SkillsEachProps = {
     img: string,
     skillPercentage: string,
     skillName: string,

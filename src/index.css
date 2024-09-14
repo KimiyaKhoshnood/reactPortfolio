@@ -7,3 +7,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#textOutline>div {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8650F6;
+    animation: textOutline 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes textOutline {100% {transform: scale(1.1);}}

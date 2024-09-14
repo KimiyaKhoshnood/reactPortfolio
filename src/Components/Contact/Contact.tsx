@@ -1,10 +1,13 @@
-import ContactWays from "../ContactWays/ContactWays"
+import {phoneCall} from 'react-icons-kit/feather/phoneCall'
+import {mail} from 'react-icons-kit/feather/mail'
+import {mapPin} from 'react-icons-kit/feather/mapPin'
+import ContactWays, { ContactWaysProps } from "../ContactWays/ContactWays"
 
 const Contact = () => {
-    let ContactWaysProps = [
-        {svg: "https://icons.veryicon.com/png/o/miscellaneous/heg-main-function-icon/phone-98.png", title:"Phone", content:"+98 910 879 3797"},
-        {svg: "https://icons.veryicon.com/png/o/miscellaneous/heg-main-function-icon/phone-98.png", title:"Email", content:"Kimiya.khoshnod@gmail.com"},
-        {svg: "https://icons.veryicon.com/png/o/miscellaneous/heg-main-function-icon/phone-98.png", title:"Address", content:"Ferdoos gharb, Tehran"},
+    let ContactWaysProps: ContactWaysProps[] = [
+        {svg: phoneCall, title:"Phone", content:"+98 910 879 3797"},
+        {svg: mail, title:"Email", content:"Kimiya.khoshnod@gmail.com"},
+        {svg: mapPin, title:"Address", content:"Ferdoos gharb, Tehran"},
     ]
 
     return(
